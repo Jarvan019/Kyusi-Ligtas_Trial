@@ -65,4 +65,8 @@ class AuthController extends Controller
         }
         return redirect('login')->withSuccess('Please login to access the dashboard page.');
     }
+    public function GeoMaps()
+    {
+        return view('GeoMaps');
+    }
 }
