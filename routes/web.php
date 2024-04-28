@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Auth\AuthController;
+use App\Http\Controllers\ChartController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -24,3 +25,5 @@ Route::get('/GeoMaps', [AuthController::class, 'GeoMaps'])->name('GeoMaps');
 Route::post('post-registration', [AuthController::class, 'postRegistration'])->name('registration.post');
 Route::get('dashboard', [AuthController::class, 'dashboard']);
 Route::get('logout', [AuthController::class, 'logout'])->name('logout');
+
+Route::get('/bar-chart', [ChartController::class, 'barChart']);

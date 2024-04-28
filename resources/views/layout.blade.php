@@ -45,7 +45,7 @@
       @yield('content')
 
       <div class="container">
-        <h3>user has successfully logged into this trial (May the force be with young sith lord)</h3>
+       
       </div>
 </body>
 </html>

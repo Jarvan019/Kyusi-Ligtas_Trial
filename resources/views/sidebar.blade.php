@@ -4,7 +4,6 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Static Sidebar</title>
-  <link rel="stylesheet" href="styles.css">
 </head>
 
 
@@ -74,8 +73,7 @@
     </ul>
   </div>
   
-  <div class="content">
-    <p>This is the main content area.</p>
+  
   </div>
 </div>
 </div>
