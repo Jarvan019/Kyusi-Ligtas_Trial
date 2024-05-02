@@ -4,7 +4,10 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Static Sidebar</title>
+<<<<<<< HEAD
   <link rel="stylesheet" href="styles.css">
+=======
+>>>>>>> 717022a12a19712ae22f37daf090252e452e14a1
 </head>
 
 
@@ -74,8 +77,12 @@
     </ul>
   </div>
   
+<<<<<<< HEAD
   <div class="content">
     <p>This is the main content area.</p>
+=======
+  
+>>>>>>> 717022a12a19712ae22f37daf090252e452e14a1
   </div>
 </div>
 </div>
